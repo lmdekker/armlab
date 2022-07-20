@@ -5,8 +5,9 @@
     "sqlAdministratorLogin": {
       "value": "sysadmin"
     },
-    "sqlAdministratorLoginPassword": {		
-      "value": "sysadmin"		
+    "sqlAdministratorLoginPassword": {
+      "value": "Pa55w.rd"		
     }		
   }
 }
+min
