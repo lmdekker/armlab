@@ -21,4 +21,4 @@ steps:
     templateLocation: 'Linked artifact'
     csmFile: '$(Build.SourcesDirectory)/webapp/main.json'
     csmParametersFile: '$(Build.SourcesDirectory)/webapp/param.json'
-    deploymentMode: 'Incremental''
+    deploymentMode: 'Incremental'
