@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "sqlAdministratorLogin": {
-      "value": "testperson"
+      "value": "sysadmin"
     },
     "sqlAdministratorLoginPassword": {		
-      "value": "!2Pino!2123"		
+      "value": "sysadmin"		
     }		
   }
 }
