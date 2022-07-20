@@ -19,6 +19,6 @@ steps:
     resourceGroupName: 'lalalala'
     location: 'West US'
     templateLocation: 'Linked artifact'
-    csmFile: '$(Build.SourcesDirectory)/webapp/main.json'
-    csmParametersFile: '$(Build.SourcesDirectory)/webapp/param.json'
+    csmFile: '$(Build.SourcesDirectory)/webapp/armdeploy.json'
+    csmParametersFile: '$(Build.SourcesDirectory)/webapp/armparam.json'
     deploymentMode: 'Incremental'
