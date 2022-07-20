@@ -13,12 +13,12 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Azure Pass - Sponsorship'
+    azureResourceManagerConnection: 'Azure Pass - Sponsorship(f0ceb3e6-1674-4f30-a3c2-cc6cf0043e26)'
     subscriptionId: 'f0ceb3e6-1674-4f30-a3c2-cc6cf0043e26'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'lalauu'
-    location: 'West Us'
+    resourceGroupName: 'lalalala'
+    location: 'West US'
     templateLocation: 'Linked artifact'
-    csmFile: '$(Build.SourcesDirectory)/tests/main.json'
-    csmParametersFile: '$(Build.SourcesDirectory)/tests/param.json'
-    deploymentMode: 'Incremental'
+    csmFile: '$(Build.SourcesDirectory)/webapp/main.json'
+    csmParametersFile: '$(Build.SourcesDirectory)/webapp/param.json'
+    deploymentMode: 'Incremental''
